@@ -1,5 +1,5 @@
 
-# kuramanime-api
+# animestream-api
 
 this is my first time web scraping, all this data API from [Kuramanime](https://kuramanime.red/).
 
