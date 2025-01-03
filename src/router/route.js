@@ -1,18 +1,18 @@
 const router = require('express')
-const route =router.Router()
+const route = router.Router()
 const Services = require("../controllers/services")
 
 route.get("/", (req, res) => {
-    res.send({
-        endpoint: {
-            getOngoingAnime: "/api/v1/ongoing/:page",
-            getCompletedAnime: "/api/v1/completed/:page",
-            getAnimeList: "/api/v1/anime",
-            getAnimeDetail: "/api/v1/anime/:id/:name",
-            getEpisodeDetail: "/api/v1/anime/:id/:name/episode/:no"
-        },
-        documentation: "https://github.com/Kirara02/Kuramanime-API"
-    })
+  res.send({
+    endpoint: {
+      getOngoingAnime: "/api/v1/ongoing/:page",
+      getCompletedAnime: "/api/v1/completed/:page",
+      getAnimeList: "/api/v1/anime",
+      getAnimeDetail: "/api/v1/anime/:id/:name",
+      getEpisodeDetail: "/api/v1/anime/:id/:name/episode/:no"
+    },
+    documentation: "https://github.com/sidoelz123/animestream-api.git"
+  })
 })
 
 // Get Ongoing Anime -Done-

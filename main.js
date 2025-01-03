@@ -9,12 +9,13 @@ inject()
 app.use(cors())
 app.use(route)
 
-const port = process.env.port || 8000
+app.use(express.static("public"))
+// const port = process.env.port || 8000
 
-app.listen(port, () => {
-  try {
-    console.log(`Running on localhost:${port}`);
-  } catch (error) {
-    throw error;
-  }
-})
+// app.listen(port, () => {
+//   try {
+//     console.log(`Running on localhost:${port}`);
+//   } catch (error) {
+//     throw error;
+//   }
+// })
