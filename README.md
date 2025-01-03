@@ -1,5 +1,5 @@
 
-# kuramanime-api
+# animestream-api
 
 this is my first time web scraping, all this data API from [Kuramanime](https://kuramanime.red/).
 
@@ -27,7 +27,7 @@ this is my first time web scraping, all this data API from [Kuramanime](https://
 
 # Documentation
 
-</br>__ApI__ Version = `v1.0`
+</br>__API__ Version = `v1.0`
 
 ### Get Ongoing Anime
 
